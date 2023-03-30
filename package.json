@@ -1,5 +1,11 @@
 {
   "dependencies": {
-    "puppeteer": "^19.5.2"
+    "cheerio": "^1.0.0-rc.12",
+    "google-auth-library": "^8.7.0",
+    "google-spreadsheet": "^3.3.0",
+    "googleapis": "^110.0.0",
+    "puppeteer": "^19.5.2",
+    "request": "^2.88.2",
+    "xlsx": "^0.18.5"
   }
 }

@@ -1,0 +1,578 @@
+1677909084209	geckodriver	INFO	Listening on 127.0.0.1:51041
+1677909087231	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "--headless" "--remote-debugg ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofileXQcM9f"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677909089289	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677909089306	Marionette	INFO	Listening on port 51050
+Read port: 51050
+console.error: "Warning: unrecognized command line flag -incognito\n"
+WebDriver BiDi listening on ws://127.0.0.1:51042
+1677909089624	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofileXQcM9f\\search.json.mozlz4", (void 0)))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:51042/devtools/browser/dceb5099-51c8-44f5-b326-45ca29d0d61a
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+1677909121877	geckodriver	INFO	Listening on 127.0.0.1:51104
+1677909125013	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "--headless" "--remote-debugg ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofileqocHTb"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677909125503	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677909125508	Marionette	INFO	Listening on port 51114
+console.error: "Warning: unrecognized command line flag -incognito\n"
+Read port: 51114
+WebDriver BiDi listening on ws://127.0.0.1:51105
+1677909125852	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofileqocHTb\\search.json.mozlz4", (void 0)))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:51105/devtools/browser/657a7fc4-831e-45ba-bb3b-2cb85e57c439
+1677925624567	geckodriver	INFO	Listening on 127.0.0.1:55601
+1677925627615	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55602" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofiledhv9cQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677925628617	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677925628627	Marionette	INFO	Listening on port 55609
+Read port: 55609
+WebDriver BiDi listening on ws://127.0.0.1:55602
+1677925628879	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1677925646551	geckodriver	INFO	Listening on 127.0.0.1:55632
+1677925649595	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55633" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofileiIVYxv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677925650115	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677925650123	Marionette	INFO	Listening on port 55641
+Read port: 55641
+WebDriver BiDi listening on ws://127.0.0.1:55633
+1677925650375	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofileiIVYxv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55633/devtools/browser/5bb7c66c-e58c-4582-818c-31d8c1b04570
+JavaScript warning: https://www.amazon.in/dp/9355615604 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://read.amazon.in/sample/B0BFFHHWSZ?f=4&l=en_IN&rid=8PMWVTP7VAD8FPBH49QD&sid=257-7346023-0918202&pa=9355615604&ref_=litb_d line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.amazon.in/dp/9355615604/ref=olp-opf-redir?aod=1&ie=UTF8&condition=new line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://read.amazon.in/sample/B0BFFHHWSZ?f=4&l=en_IN&rid=K5PABA0KPNJYHKJ16VMY&sid=257-7346023-0918202&pa=9355615604&ref_=litb_d line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/9355615604 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=9355615604&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/dp/9355615566 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/dp/9355615566/ref=olp-opf-redir?aod=1&ie=UTF8&condition=new line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/9355615566 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=9355615566&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/dp/9355615574 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/dp/9355615574/ref=olp-opf-redir?aod=1&ie=UTF8&condition=new line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/9355615574 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=9355615574&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355615477 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/9355615477 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=9355615477&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355615418 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355615418/ref=olp-opf-redir?aod=1&ie=UTF8&condition=new line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/9355615418 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=9355615418&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/dp/9355614853 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/dp/9355614853/ref=olp-opf-redir?aod=1&ie=UTF8&condition=new line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/9355614853 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=9355614853&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355614837 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355614837/ref=olp-opf-redir?aod=1&ie=UTF8&condition=new line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/9355614837 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=9355614837&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355610300 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355610300/ref=olp-opf-redir?aod=1&ie=UTF8&condition=new line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/9355610300 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=9355610300&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/935561358X line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/935561358X/ref=olp-opf-redir?aod=1&ie=UTF8&condition=new line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/935561358X line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=935561358X&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/935561344X line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/935561344X/ref=olp-opf-redir?aod=1&ie=UTF8&condition=new line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/935561344X line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=935561344X&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355614438 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355614438/ref=olp-opf-redir?aod=1&ie=UTF8&condition=new line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/9355614438 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=9355614438&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355613466 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355613466/ref=olp-opf-redir?aod=1&ie=UTF8&condition=new line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/9355613466 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=9355613466&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355613571 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355613571/ref=olp-opf-redir?aod=1&ie=UTF8&condition=new line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/9355613571 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=9355613571&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355613644 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355613644/ref=olp-opf-redir?aod=1&ie=UTF8&condition=new line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/9355613644 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=9355613644&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/dp/9355614276 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355614276/ref=olp-opf-redir?aod=1&ie=UTF8&condition=new line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/9355614276 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=9355614276&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355614322 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355614322/ref=olp-opf-redir?aod=1&ie=UTF8&condition=new line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://read.amazon.in/sample/B0B6W7F2SC?f=4&l=en_IN&rid=JQSHT6M0E6XRC9YQSZ8G&sid=257-7346023-0918202&pa=9355614322&ref_=litb_d line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/9355614322 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=9355614322&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://read.amazon.in/sample/B0B6W8FYLK?f=4&l=en_IN&rid=1AT4BBBRKYVXZSRE19X2&sid=257-7346023-0918202&pa=9355614411&ref_=litb_d line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/dp/9355614411 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355614411/ref=olp-opf-redir?aod=1&ie=UTF8&condition=new line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://read.amazon.in/sample/B0B6W8FYLK?f=4&l=en_IN&rid=7K7X2K4J70Z8TV8A4WF3&sid=257-7346023-0918202&pa=9355614411&ref_=litb_d line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/9355614411 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=9355614411&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355614330 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://read.amazon.in/sample/B0B7W79619?f=4&l=en_IN&rid=W89M58CKN27E2VM3R6HD&sid=257-7346023-0918202&pa=9355614330&ref_=litb_d line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355614330/ref=olp-opf-redir?aod=1&ie=UTF8&condition=new line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://read.amazon.in/sample/B0B7W79619?f=4&l=en_IN&rid=NEQYQ7R3P31E04EAEJE3&sid=257-7346023-0918202&pa=9355614330&ref_=litb_d line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/9355614330 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=9355614330&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355614349 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355614349/ref=olp-opf-redir?aod=1&ie=UTF8&condition=new line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/9355614349 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=9355614349&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355614403 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355614403/ref=olp-opf-redir?aod=1&ie=UTF8&condition=new line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/9355614403 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=9355614403&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355613598 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355613598/ref=olp-opf-redir?aod=1&ie=UTF8&condition=new line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/9355613598 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=9355613598&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355614446 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355614446/ref=olp-opf-redir?aod=1&ie=UTF8&condition=new line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/9355614446 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=9355614446&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355614268 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://read.amazon.in/sample/B0B8D232JY?f=4&l=en_IN&rid=FSDRZ50SP8VQDKFA442W&sid=257-7346023-0918202&pa=9355614268&ref_=litb_d line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/dp/9355614268/ref=olp-opf-redir?aod=1&ie=UTF8&condition=new line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/9355614268 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=9355614268&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355613504 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355613504/ref=olp-opf-redir?aod=1&ie=UTF8&condition=new line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/9355613504 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=9355613504&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355613261 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355613261/ref=olp-opf-redir?aod=1&ie=UTF8&condition=new line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/9355613261 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=9355613261&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355613482 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355613482/ref=olp-opf-redir?aod=1&ie=UTF8&condition=new line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/9355613482 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=9355613482&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://read.amazon.in/sample/B0B8Z2ZRL9?f=4&l=en_IN&rid=SBETKZRVRFGR5SFMVGK5&sid=257-7346023-0918202&pa=9355613512&ref_=litb_d line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/dp/9355613512 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355613512/ref=olp-opf-redir?aod=1&ie=UTF8&condition=new line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://read.amazon.in/sample/B0B8Z2ZRL9?f=4&l=en_IN&rid=EYMRBP08J4KBJ4J70XXY&sid=257-7346023-0918202&pa=9355613512&ref_=litb_d line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/9355613512 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=9355613512&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/dp/9355610521 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/dp/9355610521/ref=olp-opf-redir?aod=1&ie=UTF8&condition=new line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/9355610521 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=9355610521&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/dp/9355612664 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://read.amazon.in/sample/B0BBBK8936?f=4&l=en_IN&rid=MR61PS2EVFXR87GTX4FK&sid=257-7346023-0918202&pa=9355612664&ref_=litb_d line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/dp/9355612664/ref=olp-opf-redir?aod=1&ie=UTF8&condition=new line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://read.amazon.in/sample/B0BBBK8936?f=4&l=en_IN&rid=SAEZSVHTDB05795SV2SH&sid=257-7346023-0918202&pa=9355612664&ref_=litb_d line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/9355612664 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=9355612664&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/9355614721 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://read.amazon.in/sample/B0BBMHGLX8?f=4&l=en_IN&rid=3Q2M590DTZMVNV3W4171&sid=257-7346023-0918202&pa=9355614721&ref_=litb_d line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://read.amazon.in/sample/B0BBMHGLX8?f=4&l=en_IN&rid=XYVNNQAVNW2905XXZE4Y&sid=257-7346023-0918202&pa=9355614721&ref_=litb_d line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/dp/9355614721/ref=olp-opf-redir?aod=1&ie=UTF8&condition=new line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/9355614721 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=9355614721&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://read.amazon.in/sample/B0B2KHMTDY?f=4&l=en_IN&rid=EQSVWYSA91994CR3P5H2&sid=257-7346023-0918202&pa=935561313X&ref_=litb_d line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/dp/935561313X line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51Am7NcREVL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11wr1I7-WYL.js,11OREnu1epL.js,11Wm6BwZ+6L.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01pTleTFZOL.js_.js?AUIClients/AmazonUI&MFdCk5El#567364-T1.432724-T1.577970-T1, line 272: TypeError: a is undefined
+JavaScript warning: https://www.amazon.in/dp/935561313X/ref=olp-opf-redir?aod=1&ie=UTF8&condition=new line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://read.amazon.in/sample/B0B2KHMTDY?f=4&l=en_IN&rid=FVP3MAAQXV2DXJKK94PK&sid=257-7346023-0918202&pa=935561313X&ref_=litb_d line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/935561313X line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=935561313X++ line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://read.amazon.in/sample/B0B3J93KS7?f=4&l=en_IN&rid=A4DVWK268XF8P31TCGS3&sid=257-7346023-0918202&pa=9355614748&ref_=litb_d line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/dp/9355614748 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1677930654585	geckodriver	INFO	Listening on 127.0.0.1:57463
+1677930657630	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "5746 ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofile9nyKNp"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677930658689	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677930658696	Marionette	INFO	Listening on port 57473
+Read port: 57473
+WebDriver BiDi listening on ws://127.0.0.1:57464
+1677930658857	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofile9nyKNp\\search.json.mozlz4", (void 0)))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57464/devtools/browser/a73dc8db-65b2-41a4-9e9b-2fa118958b6c
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+JavaScript warning: https://www.amazon.in/kindle-dbs/entity/author/B081S5Z7LG?_encoding=UTF8&node=976389031&offset=0&pageSize=1800&searchAlias=stripbooks&sort=date-desc-rank&page=1&langFilter=default line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1677930798697	Marionette	INFO	Stopped listening on port 57473
+Dynamically enable window occlusion 1
+1677931076479	geckodriver	INFO	Listening on 127.0.0.1:57740
+1677931079535	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "5774 ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofileVnCym3"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677931080438	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677931080447	Marionette	INFO	Listening on port 57751
+Read port: 57751
+WebDriver BiDi listening on ws://127.0.0.1:57741
+1677931080656	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofileVnCym3\\search.json.mozlz4", (void 0)))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57741/devtools/browser/bdd18266-e001-42a6-b613-74714de73ac7
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+JavaScript warning: https://www.amazon.in/kindle-dbs/entity/author/B081S5Z7LG?_encoding=UTF8&node=976389031&offset=0&pageSize=1800&searchAlias=stripbooks&sort=date-desc-rank&page=1&langFilter=default line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+localhost" "-no-remote" "-profile" "C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofile61tLNk"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677931246057	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677931246062	Marionette	INFO	Listening on port 57900
+Read port: 57900
+WebDriver BiDi listening on ws://127.0.0.1:57893
+1677931246196	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofile61tLNk\\search.json.mozlz4", (void 0)))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57893/devtools/browser/a99dd953-1e55-4340-802a-0e653f2b4f67
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+JavaScript warning: https://www.amazon.in/kindle-dbs/entity/author/B07FCZRH8B?_encoding=UTF8&node=976389031&offset=0&pageSize=2000&searchAlias=stripbooks&sort=date-desc-rank&page=1&langFilter=default line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1677931376359	Marionette	INFO	Stopped listening on port 57900
+Dynamically enable window occlusion 1
+1677931380772	geckodriver	INFO	Listening on 127.0.0.1:58047
+1677931383817	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "5804 ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofileEKqrRb"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677931384804	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677931384812	Marionette	INFO	Listening on port 58062
+Read port: 58062
+WebDriver BiDi listening on ws://127.0.0.1:58048
+1677931384989	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofileEKqrRb\\search.json.mozlz4", (void 0)))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:58048/devtools/browser/b2be1e8c-0f4f-4304-b549-0918b1f94737
+JavaScript warning: https://www.amazon.in/kindle-dbs/entity/author/B081S74ZWY?_encoding=UTF8&node=976389031&offset=0&pageSize=1700&searchAlias=stripbooks&sort=date-desc-rank&page=1&langFilter=default line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1677931490012	Marionette	INFO	Stopped listening on port 58062
+Dynamically enable window occlusion 1
+1677931491498	geckodriver	INFO	Listening on 127.0.0.1:58229
+1677931494548	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "5823 ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofilekpyu1q"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677931495435	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677931495441	Marionette	INFO	Listening on port 58237
+Read port: 58237
+WebDriver BiDi listening on ws://127.0.0.1:58230
+1677931495620	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofilekpyu1q\\search.json.mozlz4", (void 0)))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:58230/devtools/browser/c0f57b54-a090-4158-b8db-eb001fce1dc9
+JavaScript warning: https://www.amazon.in/kindle-dbs/entity/author/B077SCV525?_encoding=UTF8&node=976389031&offset=0&pageSize=2000&searchAlias=stripbooks&sort=date-desc-rank&page=1&langFilter=default line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1677931717085	Marionette	INFO	Stopped listening on port 58237
+Dynamically enable window occlusion 1
+1677931721556	geckodriver	INFO	Listening on 127.0.0.1:58433
+1677931724615	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "5843 ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofilefAKtx2"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677931725502	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677931725508	Marionette	INFO	Listening on port 58445
+Read port: 58445
+WebDriver BiDi listening on ws://127.0.0.1:58434
+1677931725651	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofilefAKtx2\\search.json.mozlz4", (void 0)))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:58434/devtools/browser/46d671f6-b03c-4466-9c2c-53ac6f73a35c
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+JavaScript warning: https://www.amazon.in/kindle-dbs/entity/author/B074Z91M7G?_encoding=UTF8&node=976389031&offset=0&pageSize=2000&searchAlias=stripbooks&sort=date-desc-rank&page=1&langFilter=default line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1677931856319	Marionette	INFO	Stopped listening on port 58445
+Dynamically enable window occlusion 1
+1677931860107	geckodriver	INFO	Listening on 127.0.0.1:58609
+1677931863138	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "5861 ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofileEspgrJ"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677931863556	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677931863561	Marionette	INFO	Listening on port 58617
+Read port: 58617
+WebDriver BiDi listening on ws://127.0.0.1:58610
+1677931863687	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofileEspgrJ\\search.json.mozlz4", (void 0)))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:58610/devtools/browser/b76c012d-5cdd-49ca-a492-2c1065bf2a80
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+JavaScript warning: https://www.amazon.in/kindle-dbs/entity/author/B081CLXDYW?_encoding=UTF8&node=976389031&offset=0&pageSize=2000&searchAlias=stripbooks&sort=date-desc-rank&page=1&langFilter=default line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1677932002848	Marionette	INFO	Stopped listening on port 58617
+Dynamically enable window occlusion 1
+1677932005925	geckodriver	INFO	Listening on 127.0.0.1:58766
+1677932008965	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "5876 ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofileRvE46n"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677932009329	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677932009334	Marionette	INFO	Listening on port 58774
+Read port: 58774
+WebDriver BiDi listening on ws://127.0.0.1:58767
+1677932009483	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofileRvE46n\\search.json.mozlz4", (void 0)))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:58767/devtools/browser/217b08aa-f897-4166-88e3-d6baa0c1f309
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+JavaScript warning: https://www.amazon.in/kindle-dbs/entity/author/B08J45K8WR?_encoding=UTF8&node=976389031&offset=0&pageSize=2000&searchAlias=stripbooks&sort=date-desc-rank&page=1&langFilter=default line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1677932116639	Marionette	INFO	Stopped listening on port 58774
+Dynamically enable window occlusion 1
+1677932119700	geckodriver	INFO	Listening on 127.0.0.1:58910
+1677932122752	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "5891 ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofileDPho0W"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677932123285	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677932123293	Marionette	INFO	Listening on port 58918
+WebDriver BiDi listening on ws://127.0.0.1:58911
+Read port: 58918
+1677932123482	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofileDPho0W\\search.json.mozlz4", (void 0)))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:58911/devtools/browser/40aa2202-cc23-45bc-9f37-25a5deaa306e
+JavaScript warning: https://www.amazon.in/kindle-dbs/entity/author/B09JZHKW8K?_encoding=UTF8&node=976389031&offset=0&pageSize=2000&searchAlias=stripbooks&sort=date-desc-rank&page=1&langFilter=default line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1677932233624	Marionette	INFO	Stopped listening on port 58918
+Dynamically enable window occlusion 1
+1677932236676	geckodriver	INFO	Listening on 127.0.0.1:59033
+1677932239726	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "5903 ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofilexZX6hf"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677932240218	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677932240227	Marionette	INFO	Listening on port 59041
+Read port: 59041
+WebDriver BiDi listening on ws://127.0.0.1:59034
+1677932240389	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofilexZX6hf\\search.json.mozlz4", (void 0)))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59034/devtools/browser/2dd37a3f-8c21-4c11-a3dc-65330a17ea1e
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+JavaScript warning: https://www.amazon.in/kindle-dbs/entity/author/B07LB1G6YD?_encoding=UTF8&node=976389031&offset=0&pageSize=2000&searchAlias=stripbooks&sort=date-desc-rank&page=1&langFilter=default line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1677932594085	Marionette	INFO	Stopped listening on port 59041
+Dynamically enable window occlusion 1
+1677932598534	geckodriver	INFO	Listening on 127.0.0.1:59210
+1677932601545	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "5921 ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofile1UIHXC"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677932602330	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677932602336	Marionette	INFO	Listening on port 59220
+Read port: 59220
+WebDriver BiDi listening on ws://127.0.0.1:59211
+1677932602499	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofile1UIHXC\\search.json.mozlz4", (void 0)))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59211/devtools/browser/2cf6ec7d-c884-4dc8-9264-23615511c1e8
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+JavaScript warning: https://www.amazon.in/kindle-dbs/entity/author/B081CTWW1L?_encoding=UTF8&node=976389031&offset=0&pageSize=2000&searchAlias=stripbooks&sort=date-desc-rank&page=1&langFilter=default line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1677932794322	Marionette	INFO	Stopped listening on port 59220
+Dynamically enable window occlusion 1
+1677932797585	geckodriver	INFO	Listening on 127.0.0.1:59364
+1677932800649	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "5936 ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofilew23Qhj"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677932801113	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677932801120	Marionette	INFO	Listening on port 59372
+Read port: 59372
+WebDriver BiDi listening on ws://127.0.0.1:59365
+1677932801393	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofilew23Qhj\\search.json.mozlz4", (void 0)))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59365/devtools/browser/c11a2aea-9cde-47fc-84e2-37a98c732666
+JavaScript warning: https://www.amazon.in/kindle-dbs/entity/author/B0844G8HJM?_encoding=UTF8&node=976389031&offset=0&pageSize=2000&searchAlias=stripbooks&sort=author-sidecar-rank&page=1&langFilter=default line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1677932910960	Marionette	INFO	Stopped listening on port 59372
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+1677951523042	geckodriver	INFO	Listening on 127.0.0.1:59731
+1677951526078	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "5973 ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofileqZdsrQ"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677951527108	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677951527117	Marionette	INFO	Listening on port 59740
+Read port: 59740
+WebDriver BiDi listening on ws://127.0.0.1:59732
+1677951527270	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofileqZdsrQ\\search.json.mozlz4", (void 0)))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59732/devtools/browser/fb269b9a-b54a-4a0f-abad-a3f39fa7d510
+1680110277292	geckodriver	INFO	Listening on 127.0.0.1:51753
+1680110280345	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51754" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofileE0bZ0j"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680110281286	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680110281292	Marionette	INFO	Listening on port 51761
+Read port: 51761
+WebDriver BiDi listening on ws://127.0.0.1:51754
+1680110281556	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofileE0bZ0j\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51754/devtools/browser/7134ac07-d9ac-4f8d-a0a3-0d83d6440fa8
+JavaScript warning: https://www.amazon.in/dp/B0BSXC1Z63 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/dp/B0BSXC1Z63 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/dp/B0BSXC1Z63 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/dp/B0BSXC1Z63 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680110411052	geckodriver	INFO	Listening on 127.0.0.1:51984
+1680110414106	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51985" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofilebHh2wM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680110449735	geckodriver	INFO	Listening on 127.0.0.1:52009
+1680110452773	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52010" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofileAlAXTo"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680110453151	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680110453156	Marionette	INFO	Listening on port 52017
+Read port: 52017
+WebDriver BiDi listening on ws://127.0.0.1:52010
+1680110453359	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofileAlAXTo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52010/devtools/browser/6dd4e8d3-a62c-4dbe-b8c1-0da8e037e4ef
+JavaScript warning: https://www.amazon.in/dp/B0BSXC1Z63 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/dp/B0BSXC1Z63 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680110713725	geckodriver	INFO	Listening on 127.0.0.1:52315
+1680110716760	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52316" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofileMldIW7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680110717401	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680110717405	Marionette	INFO	Listening on port 52323
+Read port: 52323
+WebDriver BiDi listening on ws://127.0.0.1:52316
+1680110717621	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofileMldIW7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52316/devtools/browser/27a8b6d5-61e2-418b-92a3-4f3158eb735d
+JavaScript warning: https://www.amazon.in/dp/B0BSXC1Z63 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/B0BSXC1Z63 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=B0BSXC1Z63&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/dp/B08CN8XBMJ line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/B08CN8XBMJ line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
