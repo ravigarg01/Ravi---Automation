@@ -631,3 +631,135 @@ JavaScript warning: https://www.amazon.in/product-reviews/B0BSXC1Z63 line 7 > in
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
 JavaScript warning: https://www.amazon.in/s?k=B0BSXC1Z63&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://www.amazon.in/dp/B08CN8XBMJ line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680228347718	geckodriver	INFO	Listening on 127.0.0.1:58091
+1680228350758	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58092" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofilejjO1bL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680228351548	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680228351554	Marionette	INFO	Listening on port 58099
+Read port: 58099
+WebDriver BiDi listening on ws://127.0.0.1:58092
+1680228351815	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofilejjO1bL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58092/devtools/browser/e537f10a-80b3-4d5b-a1db-43855efc608b
+JavaScript warning: https://www.amazon.in/dp/B0BSXC1Z63 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.amazon.in/product-reviews/B0BSXC1Z63 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.amazon.in/s?k=B0BSXC1Z63&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.amazon.in/dp/B08CN8XBMJ line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/B08CN8XBMJ line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=B08CN8XBMJ&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/dp/B08CN8T6TQ line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/B08CN8T6TQ line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=B08CN8T6TQ&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/dp/B08PDFTVWJ line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/B08PDFTVWJ line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=B08PDFTVWJ&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/dp/B08P3JST18 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/B08P3JST18 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=B08P3JST18 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/dp/B08P3PFM37 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680228916409	geckodriver	INFO	Listening on 127.0.0.1:58643
+1680228919478	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58644" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofile6mVuZ3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680228920420	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680228920428	Marionette	INFO	Listening on port 58652
+Read port: 58652
+WebDriver BiDi listening on ws://127.0.0.1:58644
+1680228920888	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofile6mVuZ3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58644/devtools/browser/aa243cf2-feaf-472a-896e-89a20fed5215
+JavaScript warning: https://www.amazon.in/dp/B0BSXC1Z63 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.amazon.in/product-reviews/B0BSXC1Z63 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.amazon.in/dp/B08CN8XBMJ line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680229142891	geckodriver	INFO	Listening on 127.0.0.1:58965
+1680229145943	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58966" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofileNjBrKe"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680229146407	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680229146412	Marionette	INFO	Listening on port 58973
+Read port: 58973
+WebDriver BiDi listening on ws://127.0.0.1:58966
+1680229146601	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofileNjBrKe\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58966/devtools/browser/65e95b96-2932-4d0a-9b10-91bc6b46cb28
+JavaScript warning: https://www.amazon.in/dp/B0BSXC1Z63 line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://www.amazon.in/dp/B0BSXC1Z63 line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.amazon.in/product-reviews/B0BSXC1Z63 line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://www.amazon.in/product-reviews/B0BSXC1Z63 line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=B0BSXC1Z63&ref=nb_sb_noss line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://www.amazon.in/s?k=B0BSXC1Z63&ref=nb_sb_noss line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://www.amazon.in/dp/B08CN8XBMJ line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://www.amazon.in/dp/B08CN8XBMJ line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://www.amazon.in/product-reviews/B08CN8XBMJ line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://www.amazon.in/product-reviews/B08CN8XBMJ line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=B08CN8XBMJ&ref=nb_sb_noss line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://www.amazon.in/s?k=B08CN8XBMJ&ref=nb_sb_noss line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://www.amazon.in/dp/B08CN8T6TQ line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://www.amazon.in/dp/B08CN8T6TQ line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://www.amazon.in/product-reviews/B08CN8T6TQ line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://www.amazon.in/product-reviews/B08CN8T6TQ line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=B08CN8T6TQ&ref=nb_sb_noss line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://www.amazon.in/s?k=B08CN8T6TQ&ref=nb_sb_noss line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://www.amazon.in/dp/B08PDFTVWJ line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://www.amazon.in/dp/B08PDFTVWJ line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://www.amazon.in/product-reviews/B08PDFTVWJ line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://www.amazon.in/product-reviews/B08PDFTVWJ line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=B08PDFTVWJ&ref=nb_sb_noss line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://www.amazon.in/s?k=B08PDFTVWJ&ref=nb_sb_noss line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://www.amazon.in/dp/B08P3JST18 line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://www.amazon.in/dp/B08P3JST18 line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://www.amazon.in/product-reviews/B08P3JST18 line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://www.amazon.in/product-reviews/B08P3JST18 line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=B08P3JST18&ref=nb_sb_noss line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://www.amazon.in/s?k=B08P3JST18&ref=nb_sb_noss line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://www.amazon.in/dp/B08P3PFM37 line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://www.amazon.in/dp/B08P3PFM37 line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://www.amazon.in/product-reviews/B08P3PFM37 line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://www.amazon.in/product-reviews/B08P3PFM37 line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=B08P3PFM37&ref=nb_sb_noss line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://www.amazon.in/s?k=B08P3PFM37&ref=nb_sb_noss line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://www.amazon.in/dp/B08P3QNN2F line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://www.amazon.in/dp/B08P3QNN2F line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://www.amazon.in/product-reviews/B08P3QNN2F line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://www.amazon.in/product-reviews/B08P3QNN2F line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL is currently disabled.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."

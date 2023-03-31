@@ -358,14 +358,20 @@ def new_sp(soup):
         return result
 
 def new_mrp(soup):
-    new_mrp = soup.find("span", {"class": "a-price a-text-price"})
+    new_mrp = soup.find("span", {"class": "basisPrice"})
     if new_mrp:
-        new_mrp = new_mrp.find("span", {"class": "a-offscreen"})
+        new_mrp = new_mrp.find("span", {"class": "a-price a-text-price"})
     print("here is new mrp", new_mrp)
     if new_mrp:
-        new_mrp = float(new_mrp.text[1:].replace(",", ""))
-        print("mrp", new_mrp)
-        return new_mrp
+        new_mrp = new_mrp.text
+        # new_mrp = float(new_mrp.text[1:].replace(",", ""))
+        # print("mrp", new_mrp)
+        # return new_mrp
+        start_index = new_mrp.find('₹') + 1
+        end_index = new_mrp.find('₹', start_index)
+        result = int(new_mrp[start_index:end_index])
+        print("mrp", result)
+        return result
     else:
         return None
     
