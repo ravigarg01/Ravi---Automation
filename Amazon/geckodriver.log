@@ -576,3 +576,41 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 JavaScript warning: https://www.amazon.in/s?k=B0BSXC1Z63&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://www.amazon.in/dp/B08CN8XBMJ line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://www.amazon.in/product-reviews/B08CN8XBMJ line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680225767445	geckodriver	INFO	Listening on 127.0.0.1:56699
+1680225770533	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56700" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofileHi80O4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680225771390	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680225771398	Marionette	INFO	Listening on port 56709
+Read port: 56709
+WebDriver BiDi listening on ws://127.0.0.1:56700
+1680225771713	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofileHi80O4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56700/devtools/browser/45f0de8c-d32f-4ef9-ab51-8e3514de79da
+1680225817438	geckodriver	INFO	Listening on 127.0.0.1:56784
+1680225820459	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56785" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofile71b68A"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680225820846	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680225820851	Marionette	INFO	Listening on port 56792
+Read port: 56792
+WebDriver BiDi listening on ws://127.0.0.1:56785
+1680225821082	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofile71b68A\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56785/devtools/browser/c559ecde-4e97-47b3-84ca-77ccc2a9f899
+JavaScript warning: https://www.amazon.in/dp/B0BSXC1Z63 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/B0BSXC1Z63 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=B0BSXC1Z63&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/dp/B08CN8XBMJ line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=B08CN8XBMJ&i=grocery&crid=2CJ843CMXP785&sprefix=b08cn8xbmj%2Cgrocery%2C285&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript warning: https://www.amazon.in/Farmley-Premium-Cashew-Natural-Mangalore/dp/B08CN8XBMJ/ref=sr_1_1?crid=2CJ843CMXP785&keywords=B08CN8XBMJ&qid=1680225932&s=grocery&sprefix=b08cn8xbmj%2Cgrocery%2C285&sr=1-1 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
