@@ -347,11 +347,14 @@ def mrp_price(soup):
         return None
 
 def new_sp(soup):
-    new_sp = soup.find("span", {"class": "a-price-whole"})
+    new_sp = soup.find("span", {"class": "priceToPay"})
     if new_sp:
-        new_sp = float(new_sp.text.replace(",", ""))
-        print("sp", new_sp)
-        return new_sp
+        # new_sp = float(new_sp.text.replace(",", ""))
+        start_index = new_sp.find('$') + 1
+        end_index = new_sp.find('$', start_index)
+        result = int(new_sp[start_index:end_index])
+        print("sp", result)
+        return result
 
 def new_mrp(soup):
     new_mrp = soup.find("span", {"class": "a-price a-text-price"})
