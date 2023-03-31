@@ -350,8 +350,8 @@ def new_sp(soup):
     new_sp = soup.find("span", {"class": "priceToPay"})
     if new_sp:
         # new_sp = float(new_sp.text.replace(",", ""))
-        start_index = new_sp.find('$') + 1
-        end_index = new_sp.find('$', start_index)
+        start_index = new_sp.find('₹') + 1
+        end_index = new_sp.find('₹', start_index)
         result = int(new_sp[start_index:end_index])
         print("sp", result)
         return result
