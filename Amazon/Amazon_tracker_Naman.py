@@ -349,6 +349,7 @@ def mrp_price(soup):
 def new_sp(soup):
     new_sp = soup.find("span", {"class": "priceToPay"})
     if new_sp:
+        new_sp = new_sp.text
         # new_sp = float(new_sp.text.replace(",", ""))
         start_index = new_sp.find('₹') + 1
         end_index = new_sp.find('₹', start_index)

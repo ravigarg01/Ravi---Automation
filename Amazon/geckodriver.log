@@ -614,3 +614,20 @@ JavaScript warning: https://www.amazon.in/Farmley-Premium-Cashew-Natural-Mangalo
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
 console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+1680227464822	geckodriver	INFO	Listening on 127.0.0.1:57619
+1680227467883	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57620" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofilem3DhlJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680227468705	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680227468712	Marionette	INFO	Listening on port 57627
+Read port: 57627
+WebDriver BiDi listening on ws://127.0.0.1:57620
+1680227468974	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RAVIGA~1\\AppData\\Local\\Temp\\rust_mozprofilem3DhlJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57620/devtools/browser/0ad2948c-178f-4d05-8c15-062cd96d9cce
+JavaScript warning: https://www.amazon.in/dp/B0BSXC1Z63 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/product-reviews/B0BSXC1Z63 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.in."
+JavaScript warning: https://www.amazon.in/s?k=B0BSXC1Z63&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/dp/B08CN8XBMJ line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
