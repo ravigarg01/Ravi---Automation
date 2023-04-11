@@ -2,3 +2,10 @@
 'NoneType' object has no attribute 'find'
 'NoneType' object has no attribute 'find'
 'NoneType' object has no attribute 'find'
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+list index out of range
+list index out of range
+list index out of range

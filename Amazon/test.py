@@ -1,10 +1,10 @@
-string = '$24$4562$789$'
-start_index = string.find('$') + 1
-end_index = string.find('$', start_index)
-result = int(string[start_index:end_index])
-print(result)
 
 
+# string = '$24$4562$789$'
+# start_index = string.find('$') + 1
+# end_index = string.find('$', start_index)
+# result = int(string[start_index:end_index])
+# print(result)
 
 
 # import requests
