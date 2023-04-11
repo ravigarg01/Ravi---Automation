@@ -572,11 +572,10 @@ for Asin in all_asins:
 
                 html = driver.page_source
                 soup = BeautifulSoup(html, 'html.parser')
-                old_link = soup.find("span",class_="olp-new olp-link")
-                if old_link:
-                    old_link = old_link.find("span").find("a")
-                    old_link = old_link.get("href")
-                    old_link = "https://www.amazon.in" + old_link
+                # old_link = soup.find("span",class_="olp-new olp-link")
+                old_link = True
+                if old_link is True:
+                    old_link = '/gp/offer-listing/' + asin + '/ref=tmm_pap_new_olp_0?ie=UTF8&condition=new'
                     driver.get(old_link)
                     time.sleep(5)
                     driver.execute_script('return window.scrollTo(0, document.body.scrollHeight);')
