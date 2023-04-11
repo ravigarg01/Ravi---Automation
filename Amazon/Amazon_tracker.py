@@ -92,7 +92,7 @@ while read_status == False:
 
 
 options = Options()
-options.headless = False
+options.headless = True
 driver = webdriver.Firefox(options=options)
 
 
