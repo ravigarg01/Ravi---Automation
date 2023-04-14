@@ -712,11 +712,11 @@ for Asin in all_asins:
                 category_list = Asin[9] # J
                 book_status = Asin[6]
 
-                book_sub_tag = Asin[14] # M
-                book_key_tag = Asin[15] # N
-                book_type = Asin[16]    # O
+                book_sub_tag = Asin[12] # M
+                book_key_tag = Asin[13] # N
+                book_type = Asin[14]    # O
                 try: 
-                    book_description = Asin[17]
+                    book_description = Asin[15]
                 except:
                     book_description = ""
                
