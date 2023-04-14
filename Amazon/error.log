@@ -9,3 +9,24 @@
 list index out of range
 list index out of range
 list index out of range
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+Message: TimedPromise timed out after 300000 ms
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:180:5
+TimeoutError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:469:5
+bail@chrome://remote/content/marionette/sync.sys.mjs:211:19
+
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//amazon.in/product-reviews/9355610157&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20amazon.in.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:180:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:507:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:61:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:329:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:35:25
+
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))

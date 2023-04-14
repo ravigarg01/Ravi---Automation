@@ -751,6 +751,7 @@ for Asin in all_asins:
                     sub_rank1.append(sub_rank2)
                 subrank_sheet.append_rows(sub_rank1)
                 sellers_sheet.append_rows(seller_array1)
+                product_sheet.append_row(product_array2)
                 # review_sheet.append_rows(profiles_with_reviews)
                 df = pandas.DataFrame([product_array1])
                 df.to_csv('hope.csv', mode='a', header=False, index=False)
