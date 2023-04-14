@@ -61,7 +61,7 @@ educart_sheet = gc.open('Up coming and Active Projects').worksheet("Educart")
 examcart_row_count = examcart_sheet.row_count
 educart_row_count = educart_sheet.row_count
 
-examcart_range = examcart_sheet.get("A2:Q" + str(examcart_row_count))
+examcart_range = examcart_sheet.get("A82:Q" + str(examcart_row_count))
 educart_range = educart_sheet.get("A2:Q" + str(educart_row_count))
 
 all_asins =   examcart_range + educart_range
@@ -656,8 +656,8 @@ for Asin in all_asins:
                     wait = WebDriverWait(driver, 10)
 
                     time.sleep(2)
-                    attempts = 0
-                    while attempts < 5:
+                    attempts2 = 0
+                    while attempts2 < 5:
                         try:
                             wait.until(EC.presence_of_element_located(
                                 (By.ID, "all-offers-display-scroller")))
@@ -667,7 +667,7 @@ for Asin in all_asins:
                                 "arguments[0].scrollTop = 7000", div_element)
                             break
                         except:
-                            attempts += 1
+                            attempts2 += 1
                             time.sleep(5)
                             driver.execute_script(
                                 'return window.scrollTo(0, document.body.scrollHeight);')
@@ -766,14 +766,17 @@ for Asin in all_asins:
             tb_str = traceback.format_tb(e.__traceback__)[0]
             error = f"{e.__class__.__name__}: {e} on line {tb_str.split(',')[1].lstrip().split(' ')[1]}" + \
                 f"{asin}"
+            print(error)
+
             try:
                 DiscordWebhook(
                     url="https://discord.com/api/webhooks/1075110571193663589/F8R0zj0yhtsNVzcafVWTavpuIG2Q2DPQoKLG9JmiCZIscoomUVIm6sdGIk3hZlrXwd3b", content=f"{error}").execute()
             except Exception as e:
                 print((e))
-            log_error(str(e))
+            print(e)
             time.sleep(10)
             attempts += 1
+            print("attempts: ", attempts)
             continue
 product_sheet.append_rows(product_array2)
 DiscordWebhook(url="https://discord.com/api/webhooks/1075110571193663589/F8R0zj0yhtsNVzcafVWTavpuIG2Q2DPQoKLG9JmiCZIscoomUVIm6sdGIk3hZlrXwd3b",
