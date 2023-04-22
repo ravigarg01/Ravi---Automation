@@ -61,7 +61,7 @@ educart_sheet = gc.open('Up coming and Active Projects').worksheet("Educart 2")
 educart_row_count = educart_sheet.row_count
 
 # examcart_range = examcart_sheet.get("B2:Q" + str(examcart_row_count))
-educart_range = educart_sheet.get("A2:Q" + str(educart_row_count))
+educart_range = educart_sheet.get("A8:Q" + str(educart_row_count))
 
 all_asins = educart_range
 
