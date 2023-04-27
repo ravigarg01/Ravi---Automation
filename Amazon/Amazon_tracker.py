@@ -757,9 +757,12 @@ for Asin in all_asins:
                 df.to_csv('hope.csv', mode='a', header=False, index=False)
 
                 success = True
+                attempts= 5
+
             else:
                 print(Asin[6])
                 print("Not active")
+                attempts= 5
                 success = True
         except Exception as e:
             print("Error occured")
