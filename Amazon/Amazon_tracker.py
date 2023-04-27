@@ -631,7 +631,7 @@ for Asin in all_asins:
     # error handling for no internt connection
     attempts = 0
     success = False
-    while not success and attempts < 5:
+    while not success or attempts < 5:
         try:
             if ((Asin[6] == ("Active & Starred")) or (Asin[6] == ("Active"))) and (Asin[7]):
                 asin = Asin[7]
