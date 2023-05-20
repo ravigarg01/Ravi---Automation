@@ -680,3 +680,97 @@
 #         success = True
       
 # product_sheet.append_rows(product_array2)
+
+
+
+# from instagram_private_api import Client, ClientCompatPatch
+
+# user_name = 'ravirgarg'
+# password = 'R@vig@rg1907'
+
+# api = Client(user_name, password)
+# results = api.feed_timeline()
+# items = [item for item in results.get('feed_items', [])
+#          if item.get('media_or_ad')]
+# for item in items:
+#     # Manually patch the entity to match the public api as closely as possible, optional
+#     # To automatically patch entities, initialise the Client with auto_patch=True
+#     ClientCompatPatch.media(item['media_or_ad'])
+#     print(item['media_or_ad']['code'])
+
+# from instagramy import Instalysis
+
+# # Instagram user_id of ipl teams
+# teams = ["chennaiipl", "mumbaiindians",
+# 		"royalchallengersbangalore", "kkriders",
+# 		"delhicapitals", "sunrisershyd",
+# 		"kxipofficial"]
+
+# data = Instalysis(teams)
+
+# # return the dataframe
+# data_frame = data.analysis()
+# data_frame
+
+# from instascrape import *
+# google = Profile('https://www.instagram.com/google/')
+# google_post = Post('https://www.instagram.com/p/CG0UU3ylXnv/')
+# google_hashtag = Hashtag('https://www.instagram.com/explore/tags/google/')
+
+# # Scrape their respective data 
+# google.scrape()
+# google_post.scrape()
+# google_hashtag.scrape()
+
+# print(google.followers)
+# print(google_post['hashtags'])
+# print(google_hashtag.amount_of_posts)
+
+# from selenium import webdriver
+# from selenium.webdriver.chrome.options import Options
+# from instascrape import Profile, scrape_posts
+
+# option = Options()
+# option.headless = False
+# webdriver = webdriver.Chrome(options=option)
+
+
+# headers = {
+#     "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Mobile Safari/537.36 Edg/87.0.664.57",
+#     "cookie": "sessionid=55549345639%3Aqnx1wS2zFttp2l%3A5%3AAYf270xr4FiWB4tzrc8HbDQkwLQEC01d4fTf82055A"
+# }
+# joe = Profile("ravirgarg")
+# joe.scrape(headers=headers)
+
+# posts = joe.get_posts(webdriver=webdriver, login_first=False, amount=10)
+# print(posts)
+
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.keys import Keys
+from instascrape import Profile, scrape_posts
+
+options = Options()
+options.add_argument("user-data-dir=C:\\Users\\Ravi Garg\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 2") # specify the path to your chrome profile here
+options.headless = False
+webdriver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+
+headers = {
+    "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Mobile Safari/537.36 Edg/87.0.664.57",
+    "cookie": "sessionid=55549345639%3Aqnx1wS2zFttp2l%3A5%3AAYf270xr4FiWB4tzrc8HbDQkwLQEC01d4fTf82055A"
+}
+joe = Profile("ravirgarg")
+joe.scrape(headers=headers)
+
+print(joe.to_dict())  # Prints the details of the Instagram profile
+posts = joe.get_posts(webdriver=webdriver, login_first=True, amount=10)
+print(posts)
+for post in posts:
+    print(post.to_dict())  # Prints the details of each post
+    print(post)
+
+

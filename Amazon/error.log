@@ -30,3 +30,15 @@ emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
 receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:35:25
 
 ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+Message: Failed to decode response from marionette
+
+Message: Tried to run command without establishing a connection
+
+Message: Tried to run command without establishing a connection
+
+Message: Tried to run command without establishing a connection
+
+Message: Tried to run command without establishing a connection
+
+Message: Tried to run command without establishing a connection
+

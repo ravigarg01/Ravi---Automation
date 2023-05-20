@@ -61,7 +61,7 @@ educart_sheet = gc.open('Up coming and Active Projects').worksheet("Educart")
 examcart_row_count = examcart_sheet.row_count
 educart_row_count = educart_sheet.row_count
 
-examcart_range = examcart_sheet.get("A2:Q" + str(examcart_row_count))
+examcart_range = examcart_sheet.get("A459:Q" + str(examcart_row_count))
 educart_range = educart_sheet.get("A2:Q" + str(educart_row_count))
 
 all_asins =   examcart_range + educart_range
@@ -333,7 +333,7 @@ def list_discount(soup):
         return None
 
 
-def written_reviews(soup):
+def written_reviews(asin):
     url = "https://amazon.in/product-reviews/" + asin
     # handle error if internt is not connected
     driver.get(url)
@@ -776,7 +776,9 @@ for Asin in all_asins:
             print(e)
             time.sleep(10)
             attempts += 1
-            print("attempts: ", attempts)
+            if attempts > 5:
+                success = True
+                break
             continue
 product_sheet.append_rows(product_array2)
 DiscordWebhook(url="https://discord.com/api/webhooks/1075110571193663589/F8R0zj0yhtsNVzcafVWTavpuIG2Q2DPQoKLG9JmiCZIscoomUVIm6sdGIk3hZlrXwd3b",
