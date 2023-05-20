@@ -631,7 +631,7 @@ for Asin in all_asins:
     # error handling for no internt connection
     attempts = 0
     success = False
-    while not success and attempts < 5:
+    while not success or attempts < 5:
         try:
             if ((Asin[6] == ("Active & Starred")) or (Asin[6] == ("Active"))) and (Asin[7]):
                 asin = Asin[7]
@@ -757,9 +757,12 @@ for Asin in all_asins:
                 df.to_csv('hope.csv', mode='a', header=False, index=False)
 
                 success = True
+                attempts= 5
+
             else:
                 print(Asin[6])
                 print("Not active")
+                attempts= 5
                 success = True
         except Exception as e:
             print("Error occured")
