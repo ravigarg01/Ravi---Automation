@@ -151,8 +151,6 @@ class AmazonScraper:
                     i += 1
                 seller_rating = re.search(r'\((.*?) rating', child_divs.text)
                 if seller_rating:
-                    print(type(self.helper))  # should be <class '__main__.Helper'>
-                    print(type(seller_rating.group(1)))  # should be <class 'str'>
                     seller_rating = int(self.helper.remove_non_numeric(seller_rating.group(1)))
                 elif re.search(r'\((.*?) ratings', child_divs.text):
                     seller_rating = int(self.helper.remove_non_numeric(
