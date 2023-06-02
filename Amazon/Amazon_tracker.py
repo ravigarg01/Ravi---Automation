@@ -93,7 +93,6 @@ while read_status == False:
 
 options = Options()
 options.headless = True
-driver = webdriver.Firefox(options=options)
 
 
 def remove_non_numeric(s):
@@ -629,6 +628,7 @@ def save_other_metrics(asin, sub_category_string, best_seller_rank, date):
 product_array2 = []
 for Asin in all_asins:
     # error handling for no internt connection
+    driver = webdriver.Firefox(options=options)
     attempts = 0
     success = False
     while not success or attempts < 5:
@@ -764,6 +764,7 @@ for Asin in all_asins:
                 print("Not active")
                 attempts= 5
                 success = True
+       	     driver.close()
         except Exception as e:
             print("Error occured")
             tb_str = traceback.format_tb(e.__traceback__)[0]
@@ -782,6 +783,7 @@ for Asin in all_asins:
             if attempts > 5:
                 success = True
                 break
+            driver.close()
             continue
 product_sheet.append_rows(product_array2)
 DiscordWebhook(url="https://discord.com/api/webhooks/1075110571193663589/F8R0zj0yhtsNVzcafVWTavpuIG2Q2DPQoKLG9JmiCZIscoomUVIm6sdGIk3hZlrXwd3b",
