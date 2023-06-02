@@ -764,7 +764,7 @@ for Asin in all_asins:
                 print("Not active")
                 attempts= 5
                 success = True
-       	     driver.close()
+       	    driver.close()
         except Exception as e:
             print("Error occured")
             tb_str = traceback.format_tb(e.__traceback__)[0]
