@@ -594,8 +594,8 @@ def save_other_metrics(asin, sub_category_string, best_seller_rank, date):
 #     else:
 #         asin_metric = {}
 #         return asin_metric
-
-# def fetch_other_metrics(asin, best_seller_rank, date):
+# This is the test comment
+## def fetch_other_metrics(asin, best_seller_rank, date):
 #     other_metrics = load_other_metrics()
 #     if asin in other_metrics:
 #         prev_category = other_metrics[asin]["prev_category_rank"]
