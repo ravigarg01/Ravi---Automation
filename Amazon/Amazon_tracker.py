@@ -785,6 +785,9 @@ for Asin in all_asins:
                 break
             driver.close()
             continue
+        finally:
+            driver.close()
+            continue
 product_sheet.append_rows(product_array2)
 DiscordWebhook(url="https://discord.com/api/webhooks/1075110571193663589/F8R0zj0yhtsNVzcafVWTavpuIG2Q2DPQoKLG9JmiCZIscoomUVIm6sdGIk3hZlrXwd3b",
                content=f" Amazon Date Updated").execute()
