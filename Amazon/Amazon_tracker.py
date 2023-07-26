@@ -92,7 +92,7 @@ while read_status == False:
 
 
 options = Options()
-options.headless = False
+options.headless = True
 
 
 def remove_non_numeric(s):
