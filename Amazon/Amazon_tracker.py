@@ -61,10 +61,10 @@ educart_sheet = gc.open('Up coming and Active Projects').worksheet("Educart")
 examcart_row_count = examcart_sheet.row_count
 educart_row_count = educart_sheet.row_count
 
-examcart_range = examcart_sheet.get("A459:Q" + str(examcart_row_count))
-educart_range = educart_sheet.get("A2:Q" + str(educart_row_count))
+examcart_range = examcart_sheet.get("A2:Q" + str(examcart_row_count))
+#educart_range = educart_sheet.get("A2:Q" + str(educart_row_count))
 
-all_asins =   examcart_range + educart_range
+all_asins =   examcart_range 
 
 # product_sheet = gc.open('Up coming and Active Projects').worksheet("Products Data")
 # sellers_sheet = gc.open('Up coming and Active Projects').worksheet("Sellers Data")
@@ -80,9 +80,9 @@ while read_status == False:
         product_sheet = write_client.open('Amazon').worksheet("Products Data")
         sellers_sheet = write_client.open('Amazon').worksheet("Sellers Data")
         subrank_sheet = write_client.open('Amazon').worksheet("Amazon Subrank")
-        review_sheet = write_client.open('Amazon').worksheet("Reviews")
+        #review_sheet = write_client.open('Amazon').worksheet("Reviews")
         adc_node_sheet = write_client.open('Amazon').worksheet("Adc Subrank")
-        all_priority_sellers_sheet = write_client.open('Amazon').worksheet("Priority Sellers")
+        #all_priority_sellers_sheet = write_client.open('Amazon').worksheet("Priority Sellers")
         read_status = True
     except Exception as e:
         log_error("Error in reading the sheets: " + str(e))
@@ -92,7 +92,7 @@ while read_status == False:
 
 
 options = Options()
-options.headless = True
+options.headless = False
 
 
 def remove_non_numeric(s):
@@ -764,7 +764,7 @@ for Asin in all_asins:
                 print("Not active")
                 attempts= 5
                 success = True
-       	    driver.close()
+
         except Exception as e:
             print("Error occured")
             tb_str = traceback.format_tb(e.__traceback__)[0]
@@ -783,8 +783,11 @@ for Asin in all_asins:
             if attempts > 5:
                 success = True
                 break
-            driver.close()
             continue
+        driver.quit()
+       
+           
+
 product_sheet.append_rows(product_array2)
 DiscordWebhook(url="https://discord.com/api/webhooks/1075110571193663589/F8R0zj0yhtsNVzcafVWTavpuIG2Q2DPQoKLG9JmiCZIscoomUVIm6sdGIk3hZlrXwd3b",
                content=f" Amazon Date Updated").execute()

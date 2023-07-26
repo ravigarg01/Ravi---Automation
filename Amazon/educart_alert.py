@@ -129,7 +129,7 @@ while True:
                                 client.chat_postMessage(channel='#amazon-sellers-tracker',text=message)
                         else:
                             print("Seller already exists")
-
+            driver.quit()
         with open(file_path, "wb") as file:
             pickle.dump(sent_sellers, file)
         time.sleep(3600)   
