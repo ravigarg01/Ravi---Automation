@@ -102,7 +102,35 @@ while True:
                         buybox_status = seller[7]
                         seller_count = len(sellers)
                         asin_link = "https://amazon.in/dp/" + asin
-                    
+ '''                       row = [[datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'), asin, title, seller_name]]
+                        educart_alert_sheet.append_rows(row)
+
+                        if asin not in sent_sellers:
+                            sent_sellers[asin] = set()
+                        if seller_id not in sent_sellers[asin]:
+                            sent_sellers[asin].add(seller_id)
+                            if seller_link is not None:
+                                if buybox_status == 1:
+                                    buybox_seller = "Yes"
+                                    message = (
+                                        "Seller: <" + seller_link + "|" + seller_name + ">\n" +
+                                        "ASIN: <" + asin_link + "|" + title + ">\n" +
+                                        "Buybox Seller: " + buybox_seller + "\n"
+                                    )
+                                if buybox_status == 0:
+                                    message = (
+                                        "Seller: <" + seller_link + "|" + seller_name + ">\n" +
+                                        "ASIN: <" + asin_link + "|" + title + ">\n"
+                                    )
+                                
+                                client.chat_postMessage(channel='#amazon-sellers-tracker',text=message)
+                        else:
+                            print("Seller already exists")
+            driver.quit()
+        with open(file_path, "wb") as file:
+            pickle.dump(sent_sellers, file)
+=======
+ '''                   
                         print(type(buybox_status))
                         # message = "New seller for: " + str(asin) + "\n" + "Seller Name: " + seller_name + "\n" + "Seller Rating: " + str(seller_rating) + "\n" + "Seller Star: " + str(seller_star) + "\n" + "Prime Status: " + str(prime_status) + "\n" + "Seller Link: " + seller_link + "\n" + "Price: " + str(price) + "\n" + "Buybox Status: " + str(buybox_status) + "\n" + "Seller Count: " + str(seller_count) + "\n" + "ASIN Link: " + asin_link
                         # slack_client.chat_postMessage(channel=slack_channel_name, text=message)
@@ -124,6 +152,7 @@ while True:
                             client.chat_postMessage(channel='#amazon-sellers-tracker',text=message)
                     else:
                         print("Seller already exists")
+
         time.sleep(3600)   
 
     except Exception as e:
