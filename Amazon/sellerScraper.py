@@ -4,6 +4,7 @@ import time
 import slack
 import pickle
 import datetime
+import mysql.connector as mysql_connector
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -19,14 +20,106 @@ from scraping_functions import AmazonScraper, Helper
 SLACK_TOKEN="xoxb-289367130914-5214824005669-ldaVQykGJm2QVJeDRQ232JII"
 client = slack.WebClient(token=SLACK_TOKEN)
 
-scope = [
-    "https://www.googleapis.com/auth/spreadsheets",
-    "https://www.googleapis.com/auth/drive"
-]
+sql_configuration = {
+    'host': '164.52.208.218',
+    'user': 'ravigarg',
+    'password': 'R@vig@rg1907',
+    'database': 'Amazon'
+}
 
-credentials = ServiceAccountCredentials.from_json_keyfile_name('credentials/credentials.json', scope)
-gc = gspread.authorize(credentials)
-file_path = "sent_sellers.pkl"
+connection = mysql_connector.connect(**sql_configuration)
+cursor = connection.cursor()
+
+def run_scraper():
+    helper = Helper()
+    options = Options()
+    options.headless = False
+    driver = webdriver.Firefox(options=options)
+    cursor.execute("select asin from Amazon.asinwatchapp_tblasinmodel where status = 1")
+    asins = cursor.fetchall()
+    
+    try:
+        for asin in asins:
+            process_asin_get_sellers(asin, helper, driver)
+    except Exception as e:
+        print(e)
+        driver.quit()
+        run_scraper()
+    finally:
+        driver.close()
+        driver.quit()
+
+
+def process_asin_get_sellers(Asin, helper, driver):
+    asin = Asin[0]
+    url = "https://amazon.in/gp/offer-listing/" + asin + '/ref=tmm_pap_new_olp_0?ie=UTF8&condition=new'
+    driver.get(url)
+
+    time.sleep(3)
+
+    driver.execute_script('return window.scrollTo(0, document.body.scrollHeight);')
+    wait = WebDriverWait(driver, 5)
+
+    attempts = 0
+    while attempts < 5:
+        try:
+            wait.until(EC.presence_of_element_located(
+                (By.ID, "all-offers-display-scroller")))
+            div_element = driver.find_element(
+                By.ID, "all-offers-display-scroller")
+            driver.execute_script(
+                "arguments[0].scrollTop = 7000", div_element)
+            break
+        except:
+            attempts += 1
+            time.sleep(5)
+            driver.execute_script(
+                'return window.scrollTo(0, document.body.scrollHeight);')
+            print("Scrolling")
+            continue
+    
+    time.sleep(3)
+    html = driver.page_source
+    soup = BeautifulSoup(html, 'html.parser')
+
+    scraper = AmazonScraper(soup=soup, driver=driver, helper=helper)
+    sellers = scraper.sellers_list()
+
+    if sellers: 
+        for seller in sellers:
+            seller_id = seller[0]
+            seller_name = seller[1]
+            seller_rating = seller[2]
+            seller_star = seller[3]
+            prime_status = seller[4]
+            seller_link = seller[5]
+            price = seller[6] if seller[6] else "Not Available"
+            discount = seller[7] if seller[7] else "Not Available"
+            buybox_status = seller[7]
+
+            print(seller_id, seller_name)
+            #write query to insert the sellers in the database
+            '''
+            TblSeller - Amazon seller Ids
+            Remove status
+            Query - if not exists then insert into tblseller else update the row for the given id
+            Create new null allow columns: 
+                - seller name, seller rating, star, prime status, seller link, status: new columns in TblSeller
+                - TblAsinseller new columns: price(float), discount (float), buyboxstatus (bool)
+                - TblAsinSeller - update tblasinseller set status = 0 where asin is iteration(asin)
+                - upsert tblasinseller - if existsseller exists for that asin update status to 1 else insert new seller in tblseller, obtain its pk and insert into tblasinseller for the respecitive asin
+
+            '''
+
+while True:
+    try:
+        run_scraper()
+    except Exception as e:
+        print(e)
+        continue
+    finally:
+        time.sleep(60)  
+'''
 
 try:
     with open(file_path, "rb") as file:
@@ -144,3 +237,4 @@ while True:
         continue
 
 
+'''

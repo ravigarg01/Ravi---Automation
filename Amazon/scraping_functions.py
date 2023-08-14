@@ -8,7 +8,6 @@ import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.actions.wheel_input import ScrollOrigin
-from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options
@@ -111,15 +110,30 @@ class AmazonScraper:
 
         def seller_price(i):
             seller_num_id = "aod-price-" + str(i)
-            price_div = soup.find("div", id=seller_num_id)
+            price_div = soup.find("span", id=seller_num_id)
             if price_div:
-                price = price_div.find('span')
-                if price:
+                price = price_div.find_all('span')
+                if len(price) > 1:
                     # grab text from 1st child span tag
-                    price = price.find('span').text.strip("₹")
-                    price = price.replace(",", "")
-                    price = float(price)
-                    return price
+                    # if it contains % then it is a discount
+                    if "%" in price[0].text:
+                        discount = float(price[0].text.strip("%"))
+                    else:
+                        discount = None
+                    
+                    if discount is None:
+                        price = price[0].find('span').text.strip("₹")
+                        if price is not None:
+                            price = price.replace(",", "")
+                            price = float(price)
+                        else:
+                            price = None
+                    else:
+                        price = price[1].find('span').text.strip("₹")
+                        if price is not None:
+                            price = price.replace(",", "")
+                            price = float(price)
+                    return [price, discount]
                 else:
                     return None
             else:
@@ -139,7 +153,8 @@ class AmazonScraper:
                 if seller_star:
                     seller_star = float(seller_star.get("class")[2].strip(
                         'a-star-mini-').replace('-', '.'))
-                price = seller_price(i)
+                price = seller_price(i)[0]
+                discount = seller_price(i)[1]
                 j += 1
                 if i == 0:
                     buy_box_status = True
@@ -158,10 +173,10 @@ class AmazonScraper:
                 else:
                     seller_rating = None
                 sellers.append([seller_id, seller_name, seller_rating, seller_star,
-                            prime_status, seller_link, price, buy_box_status])
+                            prime_status, seller_link, price, buy_box_status, discount])
             return sellers
         else:
-            return [[None, None, None, None, None, None, None, None]]
+            return [[None, None, None, None, None, None, None, None, None]]
 
     def seller_nos(self):
         soup = self.soup
@@ -244,7 +259,6 @@ class AmazonScraper:
             price = price.replace(",", "")
             return float(price)
 
-
     def list_discount(self):
         soup = self.soup
         list_discount = soup.find("span", id="savingsPercentage")
@@ -312,7 +326,6 @@ class AmazonScraper:
         else:
             return None
 
-
     def get_dimensions(self):
         soup = self.soup
         feautures_div = soup.find("div", id="detailBullets_feature_div")
@@ -324,7 +337,6 @@ class AmazonScraper:
                 return None
         else:
             return None
-
 
     def get_a_plus_page(self):
         soup = self.soup
