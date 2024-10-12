@@ -29,17 +29,17 @@ from dateutil.relativedelta import *
 import subprocess
 from discord_webhook import DiscordWebhook, DiscordEmbed
 
-subprocess.run(["python", "competetor_metrics.py"])
+# subprocess.run(["python", "competetor_metrics.py"])
 
 
-scope = ['https://spreadsheets.google.com/feeds',
-         'https://www.googleapis.com/auth/drive']
-write_credentials = ServiceAccountCredentials.from_json_keyfile_name(
-    'credentials/amazon-competetor.json', scope)
-write_client = gspread.authorize(write_credentials)
+# scope = ['https://spreadsheets.google.com/feeds',
+#          'https://www.googleapis.com/auth/drive']
+# write_credentials = ServiceAccountCredentials.from_json_keyfile_name(
+#     'credentials/amazon-competetor.json', scope)
+# write_client = gspread.authorize(write_credentials)
 
-competetor_sheet = write_client.open("Amazon").worksheet("Competetor")
-competetor_asin = write_client.open("Amazon").worksheet("1 Nov Competetor")
+# competetor_sheet = write_client.open("Amazon").worksheet("Competetor")
+# competetor_asin = write_client.open("Amazon").worksheet("1 Nov Competetor")
 
 # keep todays date as today's date but time as 00:00:00
 today = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
@@ -47,83 +47,101 @@ three_month_old_date_From_today = today - relativedelta(months=3)
 print(three_month_old_date_From_today)
 
 competetors = {
-    "Arihant Experts": "https://www.amazon.in/kindle-dbs/entity/author/B081S5Z7LG?_encoding=UTF8&node=976389031&offset=0&pageSize=1800&searchAlias=stripbooks&sort=date-desc-rank&page=1&langFilter=default#formatSelectorHeader",
+    # "Wonderhouse": "https://www.amazon.in/stores/author/B08N67G4CC/allbooks?ingress=0&visitId=f2f60abb-d23d-47a0-96d3-cc02606bd28a&ref_=sr_ntt_srch_lnk_1",
+    # "DreamLand": "https://www.amazon.in/stores/Dreamland-Publications/author/B0811H1SN1/allbooks?ref=sr_ntt_srch_lnk_2&qid=1728724997&sr=1-2&isDramIntegrated=true&shoppingPortalEnabled=true"
+    # "Arihant Experts": "https://www.amazon.in/kindle-dbs/entity/author/B081S5Z7LG?_encoding=UTF8&node=976389031&offset=0&pageSize=1800&searchAlias=stripbooks&sort=date-desc-rank&page=1&langFilter=default#formatSelectorHeader",
 
-    "RPH Editorial Board": "https://www.amazon.in/kindle-dbs/entity/author/B07FCZRH8B?_encoding=UTF8&node=976389031&offset=0&pageSize=2000&searchAlias=stripbooks&sort=date-desc-rank&page=1&langFilter=default#formatSelectorHeader",
+    # "RPH Editorial Board": "https://www.amazon.in/kindle-dbs/entity/author/B07FCZRH8B?_encoding=UTF8&node=976389031&offset=0&pageSize=2000&searchAlias=stripbooks&sort=date-desc-rank&page=1&langFilter=default#formatSelectorHeader",
 
-    "Drishti Publication": "https://www.amazon.in/kindle-dbs/entity/author/B081S74ZWY?_encoding=UTF8&node=976389031&offset=0&pageSize=1700&searchAlias=stripbooks&sort=date-desc-rank&page=1&langFilter=default#formatSelectorHeader",
+    # "Drishti Publication": "https://www.amazon.in/kindle-dbs/entity/author/B081S74ZWY?_encoding=UTF8&node=976389031&offset=0&pageSize=1700&searchAlias=stripbooks&sort=date-desc-rank&page=1&langFilter=default#formatSelectorHeader",
 
-    "Disha Experts": "https://www.amazon.in/kindle-dbs/entity/author/B077SCV525?_encoding=UTF8&node=976389031&offset=0&pageSize=2000&searchAlias=stripbooks&sort=date-desc-rank&page=1&langFilter=default#formatSelectorHeader",
+    # "Disha Experts": "https://www.amazon.in/kindle-dbs/entity/author/B077SCV525?_encoding=UTF8&node=976389031&offset=0&pageSize=2000&searchAlias=stripbooks&sort=date-desc-rank&page=1&langFilter=default#formatSelectorHeader",
 
-    "Kiran Prakashan": "https://www.amazon.in/kindle-dbs/entity/author/B074Z91M7G?_encoding=UTF8&node=976389031&offset=0&pageSize=2000&searchAlias=stripbooks&sort=date-desc-rank&page=1&langFilter=default#formatSelectorHeader",
+    # "Kiran Prakashan": "https://www.amazon.in/kindle-dbs/entity/author/B074Z91M7G?_encoding=UTF8&node=976389031&offset=0&pageSize=2000&searchAlias=stripbooks&sort=date-desc-rank&page=1&langFilter=default#formatSelectorHeader",
 
-    "Team Prabhat": "https://www.amazon.in/kindle-dbs/entity/author/B081CLXDYW?_encoding=UTF8&node=976389031&offset=0&pageSize=2000&searchAlias=stripbooks&sort=date-desc-rank&page=1&langFilter=default#formatSelectorHeader",
+    # "Team Prabhat": "https://www.amazon.in/kindle-dbs/entity/author/B081CLXDYW?_encoding=UTF8&node=976389031&offset=0&pageSize=2000&searchAlias=stripbooks&sort=date-desc-rank&page=1&langFilter=default#formatSelectorHeader",
 
-    "Xamidea Editorial Board":  "https://www.amazon.in/kindle-dbs/entity/author/B08J45K8WR?_encoding=UTF8&node=976389031&offset=0&pageSize=2000&searchAlias=stripbooks&sort=date-desc-rank&page=1&langFilter=default#formatSelectorHeader",
+    # "Xamidea Editorial Board":  "https://www.amazon.in/kindle-dbs/entity/author/B08J45K8WR?_encoding=UTF8&node=976389031&offset=0&pageSize=2000&searchAlias=stripbooks&sort=date-desc-rank&page=1&langFilter=default#formatSelectorHeader",
 
-    "Books By Oswal - Gurukul": "https://www.amazon.in/kindle-dbs/entity/author/B09JZHKW8K?_encoding=UTF8&node=976389031&offset=0&pageSize=2000&searchAlias=stripbooks&sort=date-desc-rank&page=1&langFilter=default#formatSelectorHeader",
+    # "Books By Oswal - Gurukul": "https://www.amazon.in/kindle-dbs/entity/author/B09JZHKW8K?_encoding=UTF8&node=976389031&offset=0&pageSize=2000&searchAlias=stripbooks&sort=date-desc-rank&page=1&langFilter=default#formatSelectorHeader",
 
-    "Oswaal Editorial Board":  "https://www.amazon.in/kindle-dbs/entity/author/B07LB1G6YD?_encoding=UTF8&node=976389031&offset=0&pageSize=2000&searchAlias=stripbooks&sort=date-desc-rank&page=1&langFilter=default#formatSelectorHeader",
+    "Oswaal Editorial Board":  "https://www.amazon.in/stores/Oswaal-Editorial-Board/author/B07LB1G6YD/allbooks?ref=sr_ntt_srch_lnk_3&qid=1728727129&sr=8-3&isDramIntegrated=true&shoppingPortalEnabled=true",
 
-    "MTG Editorial Board": "https://www.amazon.in/kindle-dbs/entity/author/B081CTWW1L?_encoding=UTF8&node=976389031&offset=0&pageSize=2000&searchAlias=stripbooks&sort=date-desc-rank&page=1&langFilter=default#formatSelectorHeader",
+    # "MTG Editorial Board": "https://www.amazon.in/kindle-dbs/entity/author/B081CTWW1L?_encoding=UTF8&node=976389031&offset=0&pageSize=2000&searchAlias=stripbooks&sort=date-desc-rank&page=1&langFilter=default#formatSelectorHeader",
 
-    "Adda247 Publications":  "https://www.amazon.in/kindle-dbs/entity/author/B0844G8HJM?_encoding=UTF8&node=976389031&offset=0&pageSize=2000&searchAlias=stripbooks&sort=author-sidecar-rank&page=1&langFilter=default#formatSelectorHeader"
+    # "Adda247 Publications":  "https://www.amazon.in/kindle-dbs/entity/author/B0844G8HJM?_encoding=UTF8&node=976389031&offset=0&pageSize=2000&searchAlias=stripbooks&sort=author-sidecar-rank&page=1&langFilter=default#formatSelectorHeader"
 }
 
 
 for key in competetors.keys():
     option = Options()
-    option.headless = True
+    option.headless = False
     driver = webdriver.Firefox(options=option)
     try: 
         driver.get(competetors[key])
-        time.sleep(20)
+        
+        ulClassToGrab = "ProductGrid__grid__f5oba"
+        # if key == "Wonderhouse":
+        #     ulClassToGrab = "ProductGrid__grid__f5oba"
+        # if key == "DreamLand":
+        #     ulClassToGrab = "ProductGrid__grid__f5oba"
 
         soup = BeautifulSoup(driver.page_source, 'html.parser')
-        div1 = soup.find('div', id="searchWidget").find_all(
-            'div', {"class": "a-fixed-left-grid-col a-col-right"})
+        # grab all the li elements whose ul class is ulClassToGrab
+        ulElement = soup.find('ul', {"class": ulClassToGrab})
+        liElements = ulElement.find_all('li')
+        
+        for li in liElements:
+            asin_data = li.get('data-csa-c-item-id')
+            # grab the last item seperated by .
+            asin = asin_data.split('.')[-1]
+            print(asin)
+        
+        print("done")
+        # div1 = soup.find('div', id="searchWidget").find_all(
+        #     'div', {"class": "a-fixed-left-grid-col a-col-right"})
 
-        data = []
-        gapi = 0
-        url_count = 0
-        for i in div1:
+        # data = []
+        # gapi = 0
+        # url_count = 0
+        # for i in div1:
 
-            if url_count < 3:
+        #     if url_count < 3:
 
-                crawl_date = datetime.now().strftime("%d-%m-%Y")
-                title = i.find('div').find('div').find('div').find('a').text.strip()
-                launch_date = i.find('div').find('div').find('div').find_all('span')[1].text.strip()
-                launch_date = datetime.strptime(launch_date, '%d %b, %Y')
-                launch_date_str = launch_date.strftime("%d-%m-%Y")
-                href = i.find('div').find('div').find('div').find('a').get('href')
-                link = urljoin("https://amazon.in", href)
-                asin = link.split("/")[-2]
-                competetor_name = key
+        #         crawl_date = datetime.now().strftime("%d-%m-%Y")
+        #         title = i.find('div').find('div').find('div').find('a').text.strip()
+        #         launch_date = i.find('div').find('div').find('div').find_all('span')[1].text.strip()
+        #         launch_date = datetime.strptime(launch_date, '%d %b, %Y')
+        #         launch_date_str = launch_date.strftime("%d-%m-%Y")
+        #         href = i.find('div').find('div').find('div').find('a').get('href')
+        #         link = urljoin("https://amazon.in", href)
+        #         asin = link.split("/")[-2]
+        #         competetor_name = key
 
 
-                if launch_date < three_month_old_date_From_today:
-                    url_count += 1
-                    print("date wrong")
-                    if url_count > 3:
-                        break
-                    continue
-                else:
-                    url_count = 0
+        #         if launch_date < three_month_old_date_From_today:
+        #             url_count += 1
+        #             print("date wrong")
+        #             if url_count > 3:
+        #                 break
+        #             continue
+        #         else:
+        #             url_count = 0
 
-                data = [launch_date_str, crawl_date, title, link, asin, competetor_name]
-                # df = pd.DataFrame([data], columns=['Launch Date', 'Crawl Date', 'Title', 'Link', 'ASIN', 'Competetor Name'])
-                # df.to_csv("competetor.csv", index=False, mode='a', header=False)
+        #         data = [launch_date_str, crawl_date, title, link, asin, competetor_name]
+        #         # df = pd.DataFrame([data], columns=['Launch Date', 'Crawl Date', 'Title', 'Link', 'ASIN', 'Competetor Name'])
+        #         # df.to_csv("competetor.csv", index=False, mode='a', header=False)
 
-                print("data", data)
-                print(gapi)
-                competetor_asin.append_row(data)
-                gapi += 1
-                if gapi > 59:
-                    time.sleep(60)
-                    gapi = 0
+        #         print("data", data)
+        #         print(gapi)
+        #         # competetor_asin.append_row(data)
+        #         gapi += 1
+        #         if gapi > 59:
+        #             time.sleep(60)
+        #             gapi = 0
             
-        time.sleep(60)
-        driver.close()
+        # time.sleep(60)
+        # driver.close()
     except Exception as e:
         print("error", e)
         DiscordWebhook(url="https://discord.com/api/webhooks/1075110571193663589/F8R0zj0yhtsNVzcafVWTavpuIG2Q2DPQoKLG9JmiCZIscoomUVIm6sdGIk3hZlrXwd3b", content=f"competetor.py error {e}")
